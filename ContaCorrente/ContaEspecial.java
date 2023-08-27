@@ -10,7 +10,7 @@ public class ContaEspecial extends ContaCorrente
 	
 	
 	public ContaEspecial() {}
-	public ContaEspecial(String nomeCliente, int numeroConta, float limite, float saldo)
+	public ContaEspecial(String nomeCliente, int numeroConta, float saldo, float limite)
 	{
 		super(nomeCliente, numeroConta);
 		setLimite(limite);
@@ -52,6 +52,9 @@ public class ContaEspecial extends ContaCorrente
 	{
 		this.saldo = saldo;
 	}
+	
+	public float getSaldo()
+	{return this.saldo;}
 	
 	public String toString()
 	{
