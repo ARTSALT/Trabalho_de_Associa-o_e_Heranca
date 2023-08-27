@@ -1,2 +1,2 @@
 # Trabalho_de_Associa-o_e_Heranca
-Lista de exercícios 1 de POO sobre associação e herança
+Lista de exercícios 1 de Programação orientada a objetos sobre associação e herança
